@@ -56,13 +56,13 @@ module.exports = {
      kovan: {
        provider: () => kovanProvider,
        network_id: "42",
-       gas: 200000
+       gas: 500000
      },
 
      binanceTestnet: {
        provider: () => bscProvider,
        network_id: "97",
-       gas: 200000
+       gas: 500000
      }
   },
 
